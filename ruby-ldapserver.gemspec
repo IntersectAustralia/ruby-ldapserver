@@ -5,7 +5,7 @@ $:.unshift lib unless $:.include?(lib)
 require 'ldap/server/version'
 
 Gem::Specification.new do |s|
-  s.name        = "ldapserver"
+  s.name        = "ruby-ldapserver"
   s.version     = LDAP::Server::VERSION::STRING
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Intersect"]
